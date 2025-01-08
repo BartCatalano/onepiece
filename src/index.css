@@ -16,3 +16,25 @@ width: 80%;
 .mb-20{
   margin-bottom: 20px;
 }
+
+.row{
+ 
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.col{
+ 
+  border: 1px solid red;
+  width: calc(80% / 2);
+
+}
+
+.card{
+  
+  border: 1px solid purple;
+
+}
