@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: lightblue;
+}
 .container{
 margin: 0 auto;
 max-width: 1200px;
@@ -18,23 +21,29 @@ width: 80%;
 }
 
 .row{
- 
-  border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-
 }
 
 .col{
+  width: 500px;
+  margin-top: 10px;
+
  
-  border: 1px solid red;
-  width: calc(80% / 2);
 
 }
 
 .card{
-  
-  border: 1px solid purple;
+  background-color: lightsalmon;
+  border: 1px solid black;
+  margin: 2px 10px 2px 2px;
+padding: 3px;
 
+}
+
+.cardName{
+  font-size: large;
+border: 1px, solid, black;
+background-color: white;
+text-align: center;
 }
