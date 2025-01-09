@@ -25,7 +25,7 @@ function App() {
             <div key={curItem.id}>
             <div className="col">
               <div className="card">
-                <div className="cardName">{curItem.name}</div>
+                <div className="cardName">{curItem.name}<img className="jr-name" src="./public/luffy-jolly-roger.png" alt="" /></div>
                 <div className="cardInfo">
                 <div className="mtb-10">Bounty:<span className="cardValue"> {curItem.bounty}</span></div>
                 <div className="mtb-10">Job: <span className="cardValue">{curItem.job}</span></div>

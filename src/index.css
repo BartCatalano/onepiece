@@ -61,6 +61,8 @@ transition: transform 0.3s ease;
   transform: scale(1.2) rotate(5deg);
 } 
 .cardName{
+  display: flex;
+  justify-content: space-around;
   width: 100%;
   font-size: 25px;
 border: 1px, solid, black;
@@ -84,4 +86,8 @@ text-align: center;
 
 .jr{
   max-width: 100%;
+}
+
+.jr-name{
+  max-width: 30px;
 }
