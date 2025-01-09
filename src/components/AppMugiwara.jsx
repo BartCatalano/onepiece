@@ -1,12 +1,13 @@
 import axios from "axios";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 function AppMugiwara () {
-    const data = [];
-
+    
     const [characters, setCharacters] = useState([]);
-  
+  useEffect(()=>{
+    loadData();
+  })
     const loadData = () => {
       axios.get("https://api.api-onepiece.com/v2/characters/en/crew/1").then((resp) => {
         console.log(resp.data);
@@ -16,9 +17,7 @@ function AppMugiwara () {
   
     return (
       <>
-        <div className="container mt-20">
-          <button disabled={characters.length > 0} className="bottone" onClick={loadData}><h2>Ciurma di Cappello di Paglia</h2></button>
-        </div>
+        
         <section className="container">
   
           <div className="row">

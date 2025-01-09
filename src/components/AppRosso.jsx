@@ -1,12 +1,15 @@
 import axios from "axios";
-import { useState,  UseEffect } from "react";
+import { useState, useEffect } from "react";
 
 
 function AppRosso () {
-    const data = [];
+    
 
     const [characters, setCharacters] = useState([]);
-  
+  useEffect(()=>{
+      loadData();
+    })
+
     const loadData = () => {
       axios.get("https://api.api-onepiece.com/v2/characters/en/crew/2").then((resp) => {
         
@@ -16,9 +19,6 @@ function AppRosso () {
   
     return (
       <>
-        <div className="container mt-20">
-          <button disabled={characters.length > 0} className="bottone" onClick={loadData}><h2>Ciurma di Shanks il Rosso</h2></button>
-        </div>
         <section className="container">
   
           <div className="row">
