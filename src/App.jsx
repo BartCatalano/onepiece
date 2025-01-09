@@ -31,7 +31,7 @@ function App() {
                 <div className="mtb-10">Job: <span className="cardValue">{curItem.job}</span></div>
                 <div className="mtb-10">Age: <span className="cardValue">{curItem.age}</span> </div>
                 </div>
-                <div className="cardInfo"></div>
+                <div className="cardInfo"><img className="jr" src="./public/luffy-jolly-roger.png" alt="" /></div>
               </div>
             </div>
           </div>
