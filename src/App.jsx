@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <div className="container mt-20">
-        <button className="bottone" onClick={loadData}><h2>Ciurma di Cappello di Paglia</h2></button>
+        <button disabled={characters.length > 0} className="bottone" onClick={loadData}><h2>Ciurma di Cappello di Paglia</h2></button>
       </div>
       <section className="container">
 
