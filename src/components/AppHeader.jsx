@@ -20,15 +20,13 @@ const naviMenu = [
 ]
 
     return(
-<header>
+<header className="headerLayout">
 
             {naviMenu.map((page) => {
                 return (
                 <div key={page.title}><NavLink to={page.path}>{page.title}</NavLink></div>
             )
             })}
-            
-        
         </header>
     )
 }
