@@ -98,7 +98,32 @@ text-align: center;
 }
 
 .headerLayout{
+  height: 50px;
   width: 100%;
-  background-color: tomato;
+  background-color: red;
   text-align: center;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.menuHeader{
+ border: 1px solid black;
+ padding: 3px;
+ background-color: black;
+}
+
+.homeLayout{
+  height:calc(100dvh - 100px);
+  text-align: center;
+}
+
+.homeRoger{
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  margin-top: 100px;
+  
+}
+.homeImg:hover{
+  transform: scale(1.2) rotate(5deg);
 }

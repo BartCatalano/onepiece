@@ -24,7 +24,7 @@ const naviMenu = [
 
             {naviMenu.map((page) => {
                 return (
-                <div key={page.title}><NavLink to={page.path}>{page.title}</NavLink></div>
+                <div key={page.title}><NavLink to={page.path} className="menuHeader">{page.title}</NavLink></div>
             )
             })}
         </header>
