@@ -5,7 +5,7 @@ function AppHeader () {
 const naviMenu = [
     {
         path:"/",
-        title:"Home"
+        title:<img src="./public/header_logo.png" alt="" />
     },
     {
         path:"/mugiwara",

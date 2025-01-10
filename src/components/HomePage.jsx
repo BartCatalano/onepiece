@@ -1,6 +1,7 @@
 function HomePage () {
     return(
         <div className="homeLayout">
+            
         <h1>One Piece Crew</h1>
 
        
