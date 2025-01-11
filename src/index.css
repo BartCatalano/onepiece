@@ -117,6 +117,31 @@ font-size: x-large;
   margin-top: 100px;
   
 }
+
 .homeImg:hover{
   transform: scale(1.2) rotate(5deg);
+}
+.row_col_3{
+  width: 100%;
+  display: flex;
+
+}
+.col_1{
+  width: 10%;
+  background-color: black;
+  color: white;
+  
+}
+.col_2{
+  width: 80%;
+}
+.col_3{
+  width: 10%;
+  background-color: black;
+  color: white;
+  font-size: xx-large;
+  writing-mode: vertical-lr;
+  text-align: center;
+  
+  
 }

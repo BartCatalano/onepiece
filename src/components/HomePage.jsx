@@ -1,17 +1,18 @@
-function HomePage () {
-    return(
-        <div className="homeLayout">
-            
-        <h1>One Piece Crew</h1>
+function HomePage() {
+    return (
+        <div className="row_col_3">
+            <div className="col_1"></div>
+            <div className="homeLayout col_2">
+                <h1>One Piece Crew</h1>
+                <div className="homeRoger">
+                    <img className="homeImg" src="./public/shanks.png" alt="" />
+                    <img className="homeImg" src="./public/luffy-jolly-roger.png" alt="" />
+                </div>
 
-       
-
-        
-        <div className="homeRoger"> 
-            <img className="homeImg" src="./public/shanks.png" alt="" />
-            <img className="homeImg" src="./public/luffy-jolly-roger.png" alt="" />
-        </div> 
-        <h3>Seleziona la ciurma per conoscere tutti i sui componenti!</h3>
+            </div>
+            <div className="col_3">
+                <p>Seleziona la tua ciurma per vedere tutti i dettagli</p>
+            </div>
         </div>
     )
 }
